@@ -30,9 +30,7 @@ def prime_factor(n):
   l1 = []
   for i in range(int(round(np.sqrt(n)))):
     if(i*i <= n):
-      if isEven(i) == False:
-        if isPrime(i):
-          if isFactor(i,n):
+      if isEven(i) == False and isPrime(i) and isFactor(i,n):
             l1.append(i)
   return np.max(l1)
 
