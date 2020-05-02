@@ -1,6 +1,3 @@
-"""
-    Even Fibonacci numbers
-"""
 def fibonacci_sum(n):
     fser = [0,1]
     while(True):
