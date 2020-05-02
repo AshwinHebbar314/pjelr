@@ -1,6 +1,3 @@
-"""
-	Multiples of 3 and 5
-"""
 def mulgen(n):
     mul3 = []
     for i in range(n):    
